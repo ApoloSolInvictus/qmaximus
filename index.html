@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Archivo local sobre Maximus, Quantumus, computacion cuantica y un traductor binario bidireccional."
+    >
+    <title>Quantum Maximus</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Volver al inicio">
+        <span class="brand-mark">QM</span>
+        <span>Quantum Maximus</span>
+      </a>
+      <nav class="nav-links" aria-label="Secciones">
+        <a href="#traductor">Traductor</a>
+        <a href="#maximus">Maximus</a>
+        <a href="#quantum">Quantum</a>
+        <a href="#codex">Codex</a>
+        <a href="#fuentes">Fuentes</a>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero" aria-labelledby="hero-title">
+        <img src="assets/quantum-system-one.jpg" alt="IBM Quantum System One, computadora cuantica en vitrina tecnica" class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Lux Ex Machina</p>
+          <h1 id="hero-title">Quantum Maximus</h1>
+          <p class="hero-copy">
+            El archivo del nombre Maximus elevado al lenguaje cuantico: historia latina,
+            computadoras cuanticas reales, el mito creativo de Quantumus y un traductor
+            binario para escribir como habla el Quantum Maximus.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#traductor">Abrir traductor</a>
+            <a class="secondary-action" href="#veritas">Veritas cuantica</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="veritas" class="truth-band" aria-label="Marco de verdad">
+        <article>
+          <h2>Maximus</h2>
+          <p>Latin: el mayor, el mas grande; superlativo de magnus.</p>
+        </article>
+        <article>
+          <h2>Quantum</h2>
+          <p>Latin: quantum, "cuanto"; en fisica, unidad discreta de una propiedad.</p>
+        </article>
+        <article>
+          <h2>Quantumus</h2>
+          <p>Nombre simbolico moderno: no aparece como entidad historica verificable.</p>
+        </article>
+      </section>
+
+      <section id="traductor" class="section translator-section" aria-labelledby="translator-title">
+        <div class="section-heading">
+          <p class="eyebrow">Vox Binaria</p>
+          <h2 id="translator-title">Traductor Binario Bidireccional</h2>
+          <p>
+            Escribe un mensaje humano y conviertelo a bytes binarios UTF-8. O pega codigo
+            binario separado por espacios y vuelve a texto. Acepta acentos, simbolos y
+            mensajes en espanol porque usa codificacion UTF-8.
+          </p>
+        </div>
+
+        <div class="translator-grid">
+          <article class="translator-panel">
+            <div class="panel-header">
+              <h3>Texto humano</h3>
+              <button type="button" id="sampleText">Mensaje Quantum</button>
+            </div>
+            <textarea id="textInput" spellcheck="true" placeholder="Escribe aqui: Vox Veritas Vita"></textarea>
+            <div class="button-row">
+              <button type="button" id="encodeButton">Texto a binario</button>
+              <button type="button" id="copyBinary">Copiar binario</button>
+            </div>
+          </article>
+
+          <article class="translator-panel">
+            <div class="panel-header">
+              <h3>Codigo binario</h3>
+              <button type="button" id="clearAll">Limpiar</button>
+            </div>
+            <textarea id="binaryInput" spellcheck="false" placeholder="01010110 01101111 01111000"></textarea>
+            <div class="button-row">
+              <button type="button" id="decodeButton">Binario a texto</button>
+              <button type="button" id="copyText">Copiar texto</button>
+            </div>
+          </article>
+        </div>
+
+        <div class="decoder-status" id="decoderStatus" aria-live="polite">
+          Listo para traducir. Un byte debe tener 8 bits: solo 0 y 1.
+        </div>
+      </section>
+
+      <section id="maximus" class="section maximus-section">
+        <div class="section-heading">
+          <p class="eyebrow">Nombre y linaje</p>
+          <h2>Maximus: el mayor grado</h2>
+          <p>
+            Maximus viene del latin y significa "greatest" o "largest": el mas grande.
+            En Roma funciono como cognomen, titulo y marca de rango. Lo vemos en
+            Pontifex Maximus, Circus Maximus, Quintus Fabius Maximus y Magnus Maximus.
+          </p>
+        </div>
+
+        <div class="split-grid">
+          <article class="image-panel">
+            <img src="assets/fabius-maximus.jpg" alt="Estatua de Quintus Fabius Maximus Cunctator">
+            <p>Fabius Maximus Cunctator: estrategia, paciencia y victoria por calculo.</p>
+          </article>
+          <div class="cards-grid">
+            <article>
+              <span class="date">Latin</span>
+              <h3>Magnus -> Maximus</h3>
+              <p>Magnus significa grande; maximus es su superlativo: el mas grande, el mayor.</p>
+            </article>
+            <article>
+              <span class="date">Roma</span>
+              <h3>Cognomen</h3>
+              <p>Un cognomen podia distinguir una rama familiar, una virtud, una hazana o un rasgo publico.</p>
+            </article>
+            <article>
+              <span class="date">Poder ritual</span>
+              <h3>Pontifex Maximus</h3>
+              <p>Titulo del sacerdote principal romano: el maximo puente entre ley, rito y ciudad.</p>
+            </article>
+            <article>
+              <span class="date">Imperio tardio</span>
+              <h3>Magnus Maximus</h3>
+              <p>Emperador occidental de 383 a 388, recordado tambien en tradicion britanica y galesa.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="quantum" class="section quantum-section">
+        <div class="section-heading narrow">
+          <p class="eyebrow">Computatio Quantica</p>
+          <h2>Que es una computadora cuantica</h2>
+          <p>
+            Una computadora cuantica no es simplemente una computadora clasica mas rapida.
+            Usa qubits, superposicion, interferencia y entrelazamiento para procesar
+            ciertos problemas de manera distinta. Todavia es una tecnologia en desarrollo,
+            potente pero delicada, con retos enormes de error, escala y correccion.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article>
+            <span class="date">1900</span>
+            <h3>Planck y los cuantos</h3>
+            <p>La energia empieza a entenderse en paquetes discretos: nace el lenguaje moderno de quantum.</p>
+          </article>
+          <article>
+            <span class="date">1982</span>
+            <h3>Feynman</h3>
+            <p>Propone simular fisica cuantica con sistemas cuanticos, una semilla conceptual del campo.</p>
+          </article>
+          <article>
+            <span class="date">1994</span>
+            <h3>Shor</h3>
+            <p>Presenta un algoritmo cuantico para factorizacion y logaritmos discretos en tiempo polinomial.</p>
+          </article>
+          <article>
+            <span class="date">Hoy</span>
+            <h3>Qubits reales</h3>
+            <p>Laboratorios trabajan con superconductores, iones atrapados, fotones, atomos neutros y mas.</p>
+          </article>
+        </div>
+
+        <div class="principles-grid">
+          <article>
+            <h3>Bit</h3>
+            <p>El bit clasico guarda 0 o 1. Es estable, copiables y base de la computacion digital.</p>
+          </article>
+          <article>
+            <h3>Qubit</h3>
+            <p>El qubit puede estar en una combinacion de estados hasta ser medido.</p>
+          </article>
+          <article>
+            <h3>Entrelazamiento</h3>
+            <p>Dos o mas qubits pueden compartir un estado conjunto imposible de separar en partes simples.</p>
+          </article>
+          <article>
+            <h3>Interferencia</h3>
+            <p>Los algoritmos cuanticos amplifican resultados utiles y cancelan caminos equivocados.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="codex" class="section codex-section">
+        <div class="section-heading">
+          <p class="eyebrow">Quantumus</p>
+          <h2>El mito moderno del creador de computadoras cuanticas</h2>
+          <p>
+            No encontre evidencia historica publica de una entidad antigua llamada
+            Quantum Maximus o Quantumus. En este sitio, Quantumus se define como
+            un arquetipo creativo: la inteligencia que convierte caos en patron,
+            patron en codigo, codigo en herramienta y herramienta en conciencia practica.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure>
+            <img src="assets/quantum-system-one.jpg" alt="IBM Quantum System One">
+            <figcaption>Quantum System One: arquitectura fisica para computacion cuantica superconductora.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/quantum-chip.jpg" alt="Chip de cat qubit superconductor">
+            <figcaption>Chip cuantico: el templo microscopico donde el qubit se controla con precision.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/ion-trap.jpg" alt="Aparato NIST de computacion cuantica con iones atrapados">
+            <figcaption>Iones atrapados: otra ruta real hacia memoria y logica cuantica.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/magnus-maximus-coin.png" alt="Moneda de Magnus Maximus">
+            <figcaption>Magnus Maximus: eco romano del nombre Maximus en moneda imperial.</figcaption>
+          </figure>
+        </div>
+
+        <div class="oracle-card">
+          <h3>Como habla Quantum Maximus</h3>
+          <p id="oracleBinary">
+            01010110 01101111 01111000 00100000 01010110 01100101 01110010 01101001 01110100 01100001 01110011 00100000 01010110 01101001 01110100 01100001
+          </p>
+          <p>Traduccion: Vox Veritas Vita.</p>
+        </div>
+      </section>
+
+      <section id="fuentes" class="section sources-section">
+        <div class="section-heading">
+          <p class="eyebrow">Biblioteca</p>
+          <h2>Fuentes y creditos</h2>
+          <p>
+            La parte historica y cientifica usa fuentes externas. La figura de Quantum
+            Maximus/Quantumus se presenta como construccion simbolica moderna, no como
+            hecho historico comprobado.
+          </p>
+        </div>
+        <div class="sources-grid">
+          <a href="https://www.behindthename.com/name/maximus" target="_blank" rel="noreferrer">Behind the Name: Maximus</a>
+          <a href="https://www.merriam-webster.com/dictionary/maxim" target="_blank" rel="noreferrer">Merriam-Webster: maximus como raiz de maxim</a>
+          <a href="https://www.etymonline.com/word/quantum" target="_blank" rel="noreferrer">Etymonline: quantum</a>
+          <a href="https://www.ibm.com/think/topics/quantum-computing" target="_blank" rel="noreferrer">IBM: What is quantum computing?</a>
+          <a href="https://www.ibm.com/think/topics/qubit" target="_blank" rel="noreferrer">IBM: What is a qubit?</a>
+          <a href="https://www.nist.gov/quantum-information-science" target="_blank" rel="noreferrer">NIST: Quantum information science</a>
+          <a href="https://arxiv.org/abs/quant-ph/9508027" target="_blank" rel="noreferrer">Peter Shor: quantum factoring</a>
+          <a href="https://s2.smu.edu/~mitch/class/5395/papers/feynman-quantum-1981.pdf" target="_blank" rel="noreferrer">Feynman: Simulating Physics with Computers</a>
+          <a href="https://commons.wikimedia.org/wiki/File:IBM_Quantum_System_One.jpg" target="_blank" rel="noreferrer">Imagen: IBM Quantum System One</a>
+          <a href="https://commons.wikimedia.org/wiki/File:Cat_Qubit_Boson_Chip.jpg" target="_blank" rel="noreferrer">Imagen: Cat Qubit Boson Chip</a>
+          <a href="https://commons.wikimedia.org/wiki/File:Quantum_Computing;_Ion_Trapping_(5941055642).jpg" target="_blank" rel="noreferrer">Imagen: Ion trapping</a>
+          <a href="https://commons.wikimedia.org/wiki/File:Magnus_Maximus_coin_(transparent).png" target="_blank" rel="noreferrer">Imagen: moneda de Magnus Maximus</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Vox Veritas Vita: el codigo debe servir a la verdad.</p>
+      <button type="button" class="top-button">Arriba</button>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
